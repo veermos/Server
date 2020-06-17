@@ -83,10 +83,10 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'MFIS',
-        'USER':'postgres',
+        'NAME': 'mfis_db',
+        'USER':'mosaad',
         'PASSWORD':'ghashkash44',
-        'HOST':'localhost',
+        'HOST':'mfis-database.cqiccreor3hz.eu-west-3.rds.amazonaws.com',
         'PORT':'5432'
 
     }
